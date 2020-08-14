@@ -1,6 +1,8 @@
+package loop
 
-```
-  // print even numbers
+fun main(args: Array<String>){
+
+    // print even numbers
     println("------ Print Even Numbers -----")
     for(x in 1..10){
         if(x % 2 == 0){
@@ -54,4 +56,4 @@
     for((index, value) in intArray.withIndex()){
         println("Index $index and value $value")
     }
-```
+}
