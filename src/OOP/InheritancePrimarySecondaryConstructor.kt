@@ -4,7 +4,6 @@ fun main(args: Array<String>) {
 
     var manager = Manager("Karim", "Manager")
 
-
 }
 
 open class Employee{

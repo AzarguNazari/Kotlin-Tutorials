@@ -1,6 +1,6 @@
 package OOP
 
-fun main(args: Array<String>) {
+fun main() {
 
     var dog = MyDog()
     println(dog.name)
@@ -23,7 +23,7 @@ class MyDog: MyAnimal(){
     }
 
     override fun eat() {
-        super<MyAnimal>.eat()
+        super.eat()
         println("Eating")
     }
 }
