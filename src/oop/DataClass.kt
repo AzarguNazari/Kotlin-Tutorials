@@ -1,4 +1,4 @@
-package OOP
+package oop
 
 fun main(args: Array<String>) {
     var user1 = User("Ahmad", 10)
